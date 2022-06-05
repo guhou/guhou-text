@@ -1,0 +1,12 @@
+cabal-version: 3.4
+
+name:    guhou-text
+version: 0.0.1.0
+
+license:      MIT
+license-file: LICENSE
+
+executable guhou-text
+    main-is:       Main.hs
+    build-depends: base ^>= 4.16,
+                   text == 2.0,
